@@ -2,6 +2,10 @@
 layout: default
 ---
 
+
+![](/media/files/2014/06/16/resized.jpg)
+
+
 <div>
   <ul class="listing">
   {% for post in site.posts limit: 1 %}
@@ -21,6 +25,7 @@ layout: default
     </span>
     {% endif %}
     <!-- BEGIN this would not work on any other domain -->
+    <!---
     <span id="like-wrapper"></span>
     <script type="text/javascript">
       var like_shortname      = '{{ site.disqus }}';
@@ -34,6 +39,7 @@ layout: default
       l.src = 'https://like-waynezhang.rhcloud.com/javascript/widget.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(l);
     </script>
+    -->
     <!-- END this would not work on any other domain -->
     </section>
     <section class="post">
