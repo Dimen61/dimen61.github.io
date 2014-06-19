@@ -3,7 +3,7 @@ import Image
 im = Image.open("library.jpg")
 
 # Resize the image
-resize_n = 8
+resize_n = 10
 width, height = im.size
 width /= resize_n
 height /= resize_n
