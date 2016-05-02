@@ -2,7 +2,7 @@
 title: '我，辩论队'
 layout: post
 tags:
-    - 性灵
+    - 性情
     - 大学
 ---
 

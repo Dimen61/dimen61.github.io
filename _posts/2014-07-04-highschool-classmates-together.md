@@ -2,7 +2,7 @@
 title: '高中、大学一起走过'
 layout: post
 tags:
-    - 性灵
+    - 性情
     - 高中
     - 大学
 ---
