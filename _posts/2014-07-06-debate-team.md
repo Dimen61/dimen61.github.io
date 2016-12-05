@@ -1,6 +1,7 @@
 ---
 title: '我，辩论队'
 layout: post
+published: false
 tags:
     - 性情
     - 大学
