@@ -3,6 +3,7 @@ title: '葬剑'
 layout: post
 tags:
     - 性情
+    - 精进
 ---
 
 ![image](/media/files/2016/07/30/1.jpg)
