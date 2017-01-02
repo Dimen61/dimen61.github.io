@@ -2,9 +2,7 @@
 title: 'Computer Network 笔记 2'
 layout: post
 tags:
-    - 学习笔记
     - 计算机网络
-    - 考研
     - coursera
 ---
 
@@ -196,7 +194,6 @@ tags:
 **Typical Implimentation of Layers**
 ![](/media/files/2014/07/13/2.bmp)
 
-
 ---
 
 #### 2.7 Framming
@@ -205,7 +202,7 @@ tags:
 
 + 帧的第一位用于表示帧的长度。
 + 问题是一旦帧的第一位错了，后面所有帧的界定都会出错。
-![](/media/files/2014/07/13/3.bmp)
+  ![](/media/files/2014/07/13/3.bmp)
 
 ---
 
@@ -214,7 +211,7 @@ tags:
 + 用一个特殊字符(flag)来表示帧的开始和结尾
 + 如果帧内有flag信息，则在flag前加入一个转义字符
 + 如何在帧内有转义字符信息，则需要在转义字符前再加入转义字符
-![](/media/files/2014/07/13/4.bmp)
+  ![](/media/files/2014/07/13/4.bmp)
 
 ---
 
@@ -223,7 +220,7 @@ tags:
 + 用连续的6个1当flag
 + 传输前，当有5个连续的1则在后面加个0
 + 接受时，如果5个1后有个0则将0去除
-![](/media/files/2014/07/13/5.bmp)
+  ![](/media/files/2014/07/13/5.bmp)
 
 ---
 
@@ -231,9 +228,9 @@ tags:
 
 + PPP(Point-to-Point Protocol): 大多数家庭计算机与Internet服务提供商进行通信的协议
 + 广泛用于SONET（Synchronous Optical NETwork, 同步光网络）上的IP包的frame
-![](/media/files/2014/07/13/6.bmp)
+  ![](/media/files/2014/07/13/6.bmp)
 + flag is 0x7E and ESC is 0x7D // TODO 这里具体的填充我没有弄明白
-![](/media/files/2014/07/13/7.bmp)
+  ![](/media/files/2014/07/13/7.bmp)
 
 ---
 

@@ -2,8 +2,7 @@
 title: '《算法竞赛入门经典》笔记1'
 layout: post
 tags:
-    - 学习笔记
-    - 算法
+    - 编程
 ---
 
 ## 第一部分 语言篇
@@ -94,10 +93,10 @@ if语句的条件是个逻辑表达式，值为0或1，用短路（short-circuit
     floor函数的作用是取整
     floor(m + 0.5)的作用是四舍五入
     */
-
+    
     int n;
     double m;
-
+    
     m = sqrt(n);
     if (floor(m + 0.5) == m)
         printf("OK");
@@ -117,16 +116,16 @@ if语句的条件是个逻辑表达式，值为0或1，用短路（short-circuit
 
     #include <stdio.h>
     #define INF 1000000
-
+    
     int main()
     {
         int x, max = -INF;
-
+    
         while (scanf("%d", &x) == 1) {
             if (x > max)
                 max = x;
         }
-
+    
         return 0;
     }
 
@@ -150,7 +149,7 @@ scanf函数有返回值，就是成功读入的变量的个数。
         freopen("data.input", "r", stdin);
         freopen("data.output", "w", stdout);
     #endif
-
+    
         printf("Hello, world\n");
         return 0;
     }

@@ -2,9 +2,7 @@
 title: 'Computer Network 笔记 1'
 layout: post
 tags:
-    - 学习笔记
     - 计算机网络
-    - 考研
     - coursera
 ---
 
@@ -71,9 +69,9 @@ For Resource Sharing
 
     - Many user may access the same underlying resource
     - More cost effective than dedicated resources per user.
-
+    
     Statistical Multiplexing
-
+    
     + Sharing of network bandwidth between users according to the statistics of their demand
       - Multiplexing just means sharing
       - Useful because users are mostly idle and their traffic is bursty.
@@ -88,13 +86,11 @@ Content Delivery
 ![](/media/files/2014/07/03/5.bmp)
 ![](/media/files/2014/07/03/6.bmp)
 
-
 ---
 
 **Metcalfe's Law**
 
     + The value of a network of N nodes is proportional to N^2.
-
 ---
 
 ### 1.3 Network Components
