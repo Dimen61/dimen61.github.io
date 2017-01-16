@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-![](/media/files/2014/06/16/resized.jpg)
+![](/media/files/2017/01/16/me_in_lab.jpg)
 
 
 <div>
