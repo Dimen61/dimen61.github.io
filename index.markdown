@@ -3,9 +3,6 @@ layout: default
 ---
 
 
-![](/media/files/2017/01/16/me_in_lab.jpg)
-
-
 <div>
   <ul class="listing">
   {% for post in site.posts limit: 1 %}
