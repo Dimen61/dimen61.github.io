@@ -11,6 +11,4 @@ layout: page
 
 [douban](http://www.douban.com/people/waterfiredm/)
 
-[weibo](http://weibo.com/dimen61)
-
 > mail: dimen61@gmail.com
