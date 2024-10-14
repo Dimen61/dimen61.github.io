@@ -1,4 +1,4 @@
-#markdown: rdiscount
+# markdown: rdiscount
 markdown: kramdown
 # markdown: maruku
 # pygments: true
@@ -7,7 +7,7 @@ permalink: /:year/:month/:day/:title.html
 name: "Dimen61"
 #markdown: rdiscount
 
-author: "Dimen61"
+author: "dimen61"
 #atom-baseurl: "http://lhzhang.com"
 disqus: "gopherwood"
 
