@@ -27,7 +27,11 @@ navigations:
 #  - title: Blogroll
 #    class: fa fa-link
 #    href: /links.html
+  - title: Portfolio
+    class: fa fa-briefcase
+    href: https://dimen61.github.io/portfolio-terminal/
   - title: Subscribe
     class: fa fa-rss
     href: /atom.xml
+
 
